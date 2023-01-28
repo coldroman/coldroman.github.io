@@ -304,15 +304,15 @@ span#spotify {
 /* Define settings for light theme */
 @media (prefers-color-scheme: light) {
     /* Define colors for light theme */
-    :root {
-        --text-normal: rgb(0, 0, 0);
-        --text-dimmed: rgba(0, 0, 0, 0.5);
-        --text-tip: rgba(0, 0, 0, 0.4);
-        --accent: rgb(179, 30, 87);
-        --accent-hover: rgb(240, 42, 118);
-        --background-main: rgb(255, 255, 255);
-        --background-icon: rgba(179, 30, 87, 0.15);
-    }
+        :root {
+            --text-normal: rgb(0, 0, 0);
+            --text-dimmed: rgba(0, 0, 0, 0.5);
+            --text-tip: rgba(0, 0, 0, 0.4);
+            --accent: rgb(37, 84, 159);
+            --accent-hover: rgb(63, 105, 173);
+            --background-main: rgb(255, 255, 255);
+            --background-icon: rgb(28, 63, 119);
+        }
 
     /* Set color for all elements */
     * {
@@ -385,15 +385,15 @@ span#spotify {
 /* Define settings for dark theme */
 @media (prefers-color-scheme: dark) {
     /* Define colors for dark theme */
-    :root {
-        --text-normal: rgb(255, 255, 255);
-        --text-dimmed: rgba(255, 255, 255, 0.6);
-        --text-tip: rgba(255, 255, 255, 0.4);
-        --accent: rgb(230, 115, 159);
-        --accent-hover: rgb(184, 62, 108);
-        --background-main: rgb(18, 18, 18);
-        --background-icon: rgba(230, 115, 159, 0.15);
-    }
+        :root {
+            --text-normal: rgb(0, 0, 0);
+            --text-dimmed: rgba(0, 0, 0, 0.5);
+            --text-tip: rgba(0, 0, 0, 0.4);
+            --accent: rgb(37, 84, 159);
+            --accent-hover: rgb(63, 105, 173);
+            --background-main: rgb(255, 255, 255);
+            --background-icon: rgb(28, 63, 119);
+        }
 
     /* Set color for all elements */
     * {
