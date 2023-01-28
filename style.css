@@ -3,20 +3,20 @@
 
 /* Define theme independent colors for elements */
 :root {
-    --vk-color: #0077FE;
-    --tg-color: #29A2DE;
+    --vk-color: #2787F5;
+    --tg-color: #25A3E2;
     --ig-color: #E1306C;
-    --twitter-color: #19A2F7;
-    --discord-color: #5261F7;
+    --twitter-color: #41ABE1;
+    --discord-color: #5865F2;
     --lastfm-color: #D51007;
     --github-color: #181616;
     --codestats-color: #3E4053;
-    --spotify-color: #1ED860;
+    --spotify-color: #1ED760;
     --playlist-color: #FF2E63;
     --social-normal: rgba(255, 255, 255, 1);
     --social-dimmed: rgba(255, 255, 255, 0.6);
-    --spotify-normal: rgba(255, 255, 255, 1);
-    --spotify-dimmed: rgba(255, 255, 255, 0.6);
+    --spotify-normal: rgba(0, 0, 0, 1);
+    --spotify-dimmed: rgba(0, 0, 0, 0.6);
 }
 
 /* Global settings for elements */
@@ -304,15 +304,15 @@ span#spotify {
 /* Define settings for light theme */
 @media (prefers-color-scheme: light) {
     /* Define colors for light theme */
-        :root {
-            --text-normal: rgb(0, 0, 0);
-            --text-dimmed: rgba(0, 0, 0, 0.5);
-            --text-tip: rgba(0, 0, 0, 0.4);
-            --accent: rgb(37, 84, 159);
-            --accent-hover: rgb(63, 105, 173);
-            --background-main: rgb(255, 255, 255);
-            --background-icon: rgb(28, 63, 119);
-        }
+    :root {
+        --text-normal: rgb(0, 0, 0);
+        --text-dimmed: rgba(0, 0, 0, 0.5);
+        --text-tip: rgba(0, 0, 0, 0.4);
+        --accent: rgb(179, 30, 87);
+        --accent-hover: rgb(240, 42, 118);
+        --background-main: rgb(255, 255, 255);
+        --background-icon: rgba(179, 30, 87, 0.15);
+    }
 
     /* Set color for all elements */
     * {
@@ -385,15 +385,15 @@ span#spotify {
 /* Define settings for dark theme */
 @media (prefers-color-scheme: dark) {
     /* Define colors for dark theme */
-        :root {
-            --text-normal: rgb(0, 0, 0);
-            --text-dimmed: rgba(0, 0, 0, 0.5);
-            --text-tip: rgba(0, 0, 0, 0.4);
-            --accent: rgb(37, 84, 159);
-            --accent-hover: rgb(63, 105, 173);
-            --background-main: rgb(255, 255, 255);
-            --background-icon: rgb(28, 63, 119);
-        }
+    :root {
+        --text-normal: rgb(255, 255, 255);
+        --text-dimmed: rgba(255, 255, 255, 0.6);
+        --text-tip: rgba(255, 255, 255, 0.4);
+        --accent: rgb(230, 115, 159);
+        --accent-hover: rgb(184, 62, 108);
+        --background-main: rgb(18, 18, 18);
+        --background-icon: rgba(230, 115, 159, 0.15);
+    }
 
     /* Set color for all elements */
     * {
