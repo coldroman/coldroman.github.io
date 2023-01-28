@@ -3,15 +3,15 @@
 
 /* Define theme independent colors for elements */
 :root {
-    --vk-color: #2787F5;
-    --tg-color: #25A3E2;
+    --vk-color: #0077FE;
+    --tg-color: #30A3E6;
     --ig-color: #E1306C;
-    --twitter-color: #41ABE1;
-    --discord-color: #5865F2;
+    --twitter-color: #19A2F7;
+    --discord-color: #5261F7;
     --lastfm-color: #D51007;
     --github-color: #181616;
     --codestats-color: #3E4053;
-    --spotify-color: #1ED760;
+    --spotify-color: #1ED860;
     --playlist-color: #FF2E63;
     --social-normal: rgba(255, 255, 255, 1);
     --social-dimmed: rgba(255, 255, 255, 0.6);
