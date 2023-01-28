@@ -15,8 +15,8 @@
     --playlist-color: #FF2E63;
     --social-normal: rgba(255, 255, 255, 1);
     --social-dimmed: rgba(255, 255, 255, 0.6);
-    --spotify-normal: rgba(0, 0, 0, 1);
-    --spotify-dimmed: rgba(0, 0, 0, 0.6);
+    --spotify-normal: rgba(255, 255, 255, 1);
+    --spotify-dimmed: rgba(255, 255, 255, 0.6);
 }
 
 /* Global settings for elements */
