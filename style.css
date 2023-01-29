@@ -62,7 +62,7 @@ html, body {
 
 /* Define subcontainers settings */
 #mainCont, #vkCont, #tgCont, #igCont, #twitterCont, #discordCont, #lastfmCont,
-#githubCont, #codeStatsCont, #spotifyCont, #playlistCont, #footerCont {
+#shikimoriCont, #codeStatsCont, #spotifyCont, #playlistCont, #footerCont {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -75,7 +75,7 @@ html, body {
 
 /* Define settings of elements containers */
 #mainCont-elements, #vkCont-elements, #tgCont-elements, #igCont-elements, #twitterCont-elements, #discordCont-elements, #lastfmCont-elements,
-#githubCont-elements, #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
+#shikimoriCont-elements, #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
     display: flex;
     align-items: center;
     justify-content: center;
