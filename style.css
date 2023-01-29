@@ -8,7 +8,7 @@
     --ig-color: #E1306C;
     --twitter-color: #41ABE1;
     --discord-color: #5865F2;
-    --lastfm-color: #D51007;
+    --steam-color: #0C497E;
     --shikimori-color: #2A2A2A;
     --codestats-color: #3E4053;
     --spotify-color: #1ED760;
@@ -61,7 +61,7 @@ html, body {
 }
 
 /* Define subcontainers settings */
-#mainCont, #vkCont, #tgCont, #igCont, #twitterCont, #discordCont, #lastfmCont,
+#mainCont, #vkCont, #tgCont, #igCont, #twitterCont, #discordCont, #steamCont,
 #shikimoriCont, #codeStatsCont, #spotifyCont, #playlistCont, #footerCont {
     display: flex;
     box-sizing: border-box;
@@ -74,7 +74,7 @@ html, body {
 }
 
 /* Define settings of elements containers */
-#mainCont-elements, #vkCont-elements, #tgCont-elements, #igCont-elements, #twitterCont-elements, #discordCont-elements, #lastfmCont-elements,
+#mainCont-elements, #vkCont-elements, #tgCont-elements, #igCont-elements, #twitterCont-elements, #discordCont-elements, #steamCont-elements,
 #shikimoriCont-elements, #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
     display: flex;
     align-items: center;
@@ -123,8 +123,8 @@ html, body {
     background-color: var(--discord-color);
 }
 
-#lastfmCont {
-    background-color: var(--lastfm-color);
+#steamCont {
+    background-color: var(--steam-color);
 }
 
 #shikimoriCont {
@@ -281,8 +281,8 @@ span#spotify {
     background-image: url(assets/icons/social/ds-logo.svg);
 }
 
-.lastfm-logo {
-    background-image: url(assets/icons/social/lastfm-logo.svg);
+.steam-logo {
+    background-image: url(assets/icons/social/steam-logo.svg);
 }
 
 .sh-logo {
@@ -466,7 +466,7 @@ span#spotify {
 /* Rules for regular phones in portait mode */
 @media (max-height: 850px) and (orientation: portrait) {
     #mainCont-elements, #vkCont-elements, #tgCont-elements, #discordCont-elements,
-    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #shikimoriCont-elements,
+    #igCont-elements, #twitterCont-elements, #steamCont-elements, #shikimoriCont-elements,
     #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
         width: fit-content;
     }
@@ -504,7 +504,7 @@ span#spotify {
 /* Rules for regular phones landscape */
 @media (max-width: 1000px) and (orientation: landscape) {
     #mainCont-elements, #vkCont-elements, #tgCont-elements, #discordCont-elements,
-    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #shikimoriCont-elements,
+    #igCont-elements, #twitterCont-elements, #steamCont-elements, #shikimoriCont-elements,
     #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
         flex-direction: row;
         width: fit-content;
