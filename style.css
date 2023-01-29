@@ -9,7 +9,7 @@
     --twitter-color: #41ABE1;
     --discord-color: #5865F2;
     --lastfm-color: #D51007;
-    --github-color: #181616;
+    --shikimori-color: #FFFFFF;
     --codestats-color: #3E4053;
     --spotify-color: #1ED760;
     --playlist-color: #FF2E63;
@@ -127,8 +127,8 @@ html, body {
     background-color: var(--lastfm-color);
 }
 
-#githubCont {
-    background-color: var(--github-color);
+#shikimoriCont {
+    background-color: var(--shikimori-color);
 }
 
 #codeStatsCont {
@@ -285,8 +285,8 @@ span#spotify {
     background-image: url(assets/icons/social/lastfm-logo.svg);
 }
 
-.gh-logo {
-    background-image: url(assets/icons/social/gh-logo.svg);
+.sh-logo {
+    background-image: url(assets/icons/social/sh-logo.svg);
 }
 
 .cs-logo {
