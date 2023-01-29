@@ -466,7 +466,7 @@ span#spotify {
 /* Rules for regular phones in portait mode */
 @media (max-height: 850px) and (orientation: portrait) {
     #mainCont-elements, #vkCont-elements, #tgCont-elements, #discordCont-elements,
-    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #githubCont-elements,
+    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #shikimoriCont-elements,
     #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
         width: fit-content;
     }
@@ -504,7 +504,7 @@ span#spotify {
 /* Rules for regular phones landscape */
 @media (max-width: 1000px) and (orientation: landscape) {
     #mainCont-elements, #vkCont-elements, #tgCont-elements, #discordCont-elements,
-    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #githubCont-elements,
+    #igCont-elements, #twitterCont-elements, #lastfmCont-elements, #shikimoriCont-elements,
     #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
         flex-direction: row;
         width: fit-content;
