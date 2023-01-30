@@ -113,7 +113,7 @@ html, body {
 
 #igCont {
     background: #ED4C82;
-    background: linear-gradient(45deg, rgba(255,46,99,1) 0%, rgba(255,157,157,1) 100%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 #twitterCont {
