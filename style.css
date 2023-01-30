@@ -9,10 +9,10 @@
     --twitter-color: #41ABE1;
     --discord-color: #5865F2;
     --steam-color: #0C497E;
+    --tiktok-color: #000000;
     --shikimori-color: #2A2A2A;
     --codestats-color: #3E4053;
     --spotify-color: #1ED760;
-    --playlist-color: #FF2E63;
     --social-normal: rgba(255, 255, 255, 1);
     --social-dimmed: rgba(255, 255, 255, 0.6);
     --spotify-normal: rgba(255, 255, 255, 1);
@@ -62,7 +62,7 @@ html, body {
 
 /* Define subcontainers settings */
 #mainCont, #vkCont, #tgCont, #igCont, #twitterCont, #discordCont, #steamCont,
-#shikimoriCont, #codeStatsCont, #spotifyCont, #playlistCont, #footerCont {
+#shikimoriCont, #codeStatsCont, #spotifyCont, #tiktokCont, #footerCont {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -75,7 +75,7 @@ html, body {
 
 /* Define settings of elements containers */
 #mainCont-elements, #vkCont-elements, #tgCont-elements, #igCont-elements, #twitterCont-elements, #discordCont-elements, #steamCont-elements,
-#shikimoriCont-elements, #codeStatsCont-elements, #spotifyCont-elements, #playlistCont-elements, #footerCont-elements {
+#shikimoriCont-elements, #codeStatsCont-elements, #spotifyCont-elements, #tiktok-elements, #footerCont-elements {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,9 +141,8 @@ html, body {
     background-color: var(--spotify-color);
 }
 
-#playlistCont {
-    background: rgb(255,46,99);
-    background: linear-gradient(45deg, rgba(255,46,99,1) 0%, rgba(255,157,157,1) 100%);
+#tiktokCont {
+    background-color: var(--tiktok-color);
 }
 
 /* Define settings for h1 tag */
@@ -299,8 +298,8 @@ span#spotify {
     background-image: url(assets/icons/social/spotify-logo.svg);
 }
 
-.playlist-icon {
-    background-image: url(assets/icons/playlist-icon.svg);
+.tiktok-icon {
+    background-image: url(assets/icons/social/tiktok-logo.svg);
 }
 
 /* Define settings for light theme */
