@@ -309,10 +309,10 @@ span#spotify {
         --text-normal: rgb(0, 0, 0);
         --text-dimmed: rgba(0, 0, 0, 0.5);
         --text-tip: rgba(0, 0, 0, 0.4);
-        --accent: rgb(0, 180, 216);
-        --accent-hover: rgb(72, 202, 228);
+        --accent: rgb(179, 30, 87);
+        --accent-hover: rgb(240, 42, 118);
         --background-main: rgb(255, 255, 255);
-        --background-icon: rgba(2, 62, 138);
+        --background-icon: rgba(179, 30, 87, 0.15);
     }
 
     /* Set color for all elements */
@@ -390,10 +390,10 @@ span#spotify {
         --text-normal: rgb(255, 255, 255);
         --text-dimmed: rgba(255, 255, 255, 0.6);
         --text-tip: rgba(255, 255, 255, 0.4);
-        --accent: rgb(0, 180, 216);
-        --accent-hover: rgb(72, 202, 228);
+        --accent: rgb(230, 115, 159);
+        --accent-hover: rgb(184, 62, 108);
         --background-main: rgb(18, 18, 18);
-        --background-icon: rgba(2, 62, 138);
+        --background-icon: rgba(230, 115, 159, 0.15);
     }
 
     /* Set color for all elements */
