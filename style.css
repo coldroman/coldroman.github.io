@@ -125,7 +125,8 @@ html, body {
 }
 
 #steamCont {
-    background-color: var(--steam-color);
+    background: #10182c;
+    background: linear-gradient(180deg, #1570A5 100%);
 }
 
 #shikimoriCont {
