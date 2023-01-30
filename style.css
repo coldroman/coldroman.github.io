@@ -112,7 +112,8 @@ html, body {
 }
 
 #igCont {
-    background-color: var(--ig-color);
+    background: #ED4C82;
+    background: linear-gradient(45deg, rgba(255,46,99,1) 0%, rgba(255,157,157,1) 100%);
 }
 
 #twitterCont {
