@@ -42,6 +42,7 @@ head, ::-webkit-scrollbar {
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* Define settings of hostCont */
