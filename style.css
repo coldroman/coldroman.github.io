@@ -127,7 +127,7 @@ html, body {
 
 #steamCont {
     background: #10182c;
-    background: linear-gradient(180deg, rgba(16, 24, 44,1) 0%, rgba(21, 112, 165,1) 100%);
+    background: linear-gradient(180deg,  rgba(21, 112, 165,1) 100%), rgba(16, 24, 44,1) 0%;
 }
 
 #shikimoriCont {
