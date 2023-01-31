@@ -121,6 +121,22 @@
                       <h1 class="social-h1 dimmed"><span class="social">Discord</span></h1>
                         <p class="desc social-dimmed">Place where I mostly online</p>
                         <input type="button" value="cold#5711" class="social-btn" />
+                        </script type="text/javascript">
+  function copyText(text) {
+    var textArea = document.createElement("textarea");
+    textArea.value = text;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    textArea.parentNode.removeChild(textArea);
+  }
+
+  document.getElementById('copyButton').onclick = function(){
+    copyText('cold#5711');
+  };
+</script>
+
+<button id="copyButton">Copy to Clipboard</button>
                     </div>
                 </div>
             </div>
