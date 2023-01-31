@@ -59,4 +59,3 @@ window.onload = function () {
     changeFavicons();
     changeOpacity();
 }
-
