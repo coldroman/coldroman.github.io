@@ -60,7 +60,6 @@ window.onload = function () {
     changeOpacity();
 }
 
-$(function() {
   // copy content to clipboard
   function copyToClipboard(element) {
     var $temp = $("<input>");
