@@ -563,3 +563,7 @@ span#spotify {
         border-radius: 12px;
     }
 }
+
+.coupon-alert {
+  display: none;
+}
