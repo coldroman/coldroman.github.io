@@ -119,7 +119,26 @@
                       <div class="landscape-elements">
                          <h1 class="social-h1 dimmed"><span class="social">Discord</span></h1>
                         <p class="desc social-dimmed">Place where I mostly online</p>
-                       <input type="button" onclick="navigator.clipboard.writeText('cold#5711')"value="Сopy" class="social-btn" />
+                       <input type="button" id="demo" onclick="myFunction()" value="Сopy" data-tooltip="tooltip" title="Test" class="social-btn" />
+                        <div id="tooltip" style="display: none; position: ;">
+                            <p style="">Copy successful!</p>
+                        </div>
+                        
+                       <script>
+                        async function myFunction() {
+                            navigator.clipboard.writeText('cold#5711');
+
+                            var x = document.getElementById("tooltip");
+                            x.style.display = "block";
+                            delay(1000).then(() => x.style.display = "none");
+                        }
+
+                        function delay(time) {
+  return new Promise(resolve => setTimeout(resolve, time));
+}
+
+delay(1000).then(() => console.log('ran after 1 second1 passed'));
+                        </script>
                     </div>
                 </div>
             </div>
