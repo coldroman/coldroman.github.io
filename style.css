@@ -391,8 +391,8 @@ span#spotify {
         --text-normal: rgb(255, 255, 255);
         --text-dimmed: rgba(255, 255, 255, 0.6);
         --text-tip: rgba(255, 255, 255, 0.4);
-        --accent: rgb(255, 0, 0);
-        --accent-hover: rgb(255, 0, 0);
+        --accent: rgb(139, 137, 210;
+        --accent-hover: rgb(125, 122, 205);
         --background-main: rgb(18, 18, 18);
         --background-icon: rgba(230, 115, 159, 0.15);
     }
