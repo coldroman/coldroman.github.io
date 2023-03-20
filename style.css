@@ -309,7 +309,6 @@ span#spotify {
     :root {
         --text-normal: rgb(0, 0, 0);
         --text-dimmed: rgba(0, 0, 0, 0.5);
-        --button: rgba(18, 18, 18);
         --text-tip: rgba(0, 0, 0, 0.4);
         --accent: rgb(179, 30, 87);
         --accent-hover: rgb(240, 42, 118);
@@ -357,7 +356,7 @@ span#spotify {
 
     /* Set color for button and its hover state */
     input[type=button] {
-        background-color: var(--button);
+        background-color: var(--accent);
     }
 
     input[type=button]:hover {
@@ -371,7 +370,7 @@ span#spotify {
     }
 
     input.social-btn:hover {
-        background-color: var(--button);
+        background-color: var(--accent);
         color: white;
     }
 
@@ -391,7 +390,6 @@ span#spotify {
     :root {
         --text-normal: rgb(255, 255, 255);
         --text-dimmed: rgba(255, 255, 255, 0.6);
-        --button: rgba(18, 18, 18);
         --text-tip: rgba(255, 255, 255, 0.4);
         --accent: rgb(230, 115, 159);
         --accent-hover: rgb(184, 62, 108);
@@ -439,11 +437,11 @@ span#spotify {
 
     /* Set color for button and its hover state */
     input[type=button] {
-        background-color: var(--button);
+        background-color: var(--accent);
     }
 
     input[type=button]:hover {
-        background-color: var(--button);
+        background-color: var(--accent-hover);
     }
 
     /* Set color for social button and its hover state */
