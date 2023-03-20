@@ -391,6 +391,7 @@ span#spotify {
         --text-normal: rgb(255, 255, 255);
         --text-dimmed: rgba(255, 255, 255, 0.6);
         --text-tip: rgba(255, 255, 255, 0.4);
+        --button: rgb(18, 18, 18);
         --accent: rgb(230, 115, 159);
         --accent-hover: rgb(184, 62, 108);
         --background-main: rgb(18, 18, 18);
@@ -451,7 +452,7 @@ span#spotify {
     }
 
     input.social-btn:hover {
-        background-color: var(--accent);
+        background-color: var(--button);
         color: white;
     }
 
